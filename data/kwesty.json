@@ -1,0 +1,144 @@
+{
+  "kwesty": [
+    {
+      "id": "prvni_krok",
+      "nazev": "První krok",
+      "popis": "Proveď svůj první tah.",
+      "typ": "tah",
+      "pocet": 1,
+      "kym": null,
+      "koho": null,
+      "body": 5
+    },
+    {
+      "id": "rozjezd",
+      "nazev": "Rozjezd",
+      "popis": "Proveď 20 tahů v jedné partii.",
+      "typ": "tah",
+      "pocet": 20,
+      "kym": null,
+      "koho": null,
+      "body": 10
+    },
+    {
+      "id": "tlak_na_krale",
+      "nazev": "Tlak na krále",
+      "popis": "Dej soupeři 3× šach.",
+      "typ": "sach",
+      "pocet": 3,
+      "kym": null,
+      "koho": null,
+      "body": 15
+    },
+    {
+      "id": "hrad_je_bezpecny",
+      "nazev": "Hrad je bezpečný",
+      "popis": "Proveď rošádu.",
+      "typ": "rosada",
+      "pocet": 1,
+      "kym": null,
+      "koho": null,
+      "body": 10
+    },
+    {
+      "id": "mimochodem",
+      "nazev": "Mimochodem",
+      "popis": "Vyhoď pěšce braním mimochodem (en passant).",
+      "typ": "en_passant",
+      "pocet": 1,
+      "kym": null,
+      "koho": null,
+      "body": 25
+    },
+    {
+      "id": "karierni_postup",
+      "nazev": "Kariérní postup",
+      "popis": "Proměň pěšce v dámu.",
+      "typ": "promena",
+      "pocet": 1,
+      "kym": null,
+      "koho": "D",
+      "body": 20
+    },
+    {
+      "id": "jezdecky_lovec",
+      "nazev": "Jezdecký lovec",
+      "popis": "Vyhoď jezdcem 3 figurky.",
+      "typ": "vyhozeni",
+      "pocet": 3,
+      "kym": "J",
+      "koho": null,
+      "body": 20
+    },
+    {
+      "id": "kralovna_padla",
+      "nazev": "Královna padla",
+      "popis": "Vyhoď soupeřovu dámu.",
+      "typ": "vyhozeni",
+      "pocet": 1,
+      "kym": null,
+      "koho": "D",
+      "body": 15
+    },
+    {
+      "id": "masakr",
+      "nazev": "Masakr",
+      "popis": "Vyhoď 10 figurek v jedné partii.",
+      "typ": "vyhozeni",
+      "pocet": 10,
+      "kym": null,
+      "koho": null,
+      "body": 30
+    },
+    {
+      "id": "sach_mat",
+      "nazev": "Šach mat",
+      "popis": "Dej mat.",
+      "typ": "mat",
+      "pocet": 1,
+      "kym": null,
+      "koho": null,
+      "body": 30
+    },
+    {
+      "id": "potupa",
+      "nazev": "Potupa",
+      "popis": "Dej mat pěšcem.",
+      "typ": "mat",
+      "pocet": 1,
+      "kym": "P",
+      "koho": null,
+      "body": 50
+    },
+    {
+      "id": "vitez",
+      "nazev": "Vítěz",
+      "popis": "Vyhraj partii (jakkoli).",
+      "typ": "vyhra",
+      "pocet": 1,
+      "kym": null,
+      "koho": null,
+      "body": 20
+    },
+    {
+      "id": "bleskova_vyhra",
+      "nazev": "Blesková výhra",
+      "popis": "Vyhraj nejpozději svým 25. tahem.",
+      "typ": "rychla_vyhra",
+      "pocet": 25,
+      "kym": null,
+      "koho": null,
+      "body": 40
+    },
+    {
+      "id": "exotik",
+      "nazev": "Exotik",
+      "popis": "Vyhoď něco Arcibiskupem (vlastní figurka A).",
+      "typ": "vyhozeni",
+      "pocet": 1,
+      "kym": "A",
+      "koho": null,
+      "body": 15
+    }
+  ]
+}

@@ -1,0 +1,212 @@
+{
+  "figurky": [
+    {
+      "znacka": "A",
+      "nazev": "Arcibiskup",
+      "pohyby": [
+        {
+          "vektory": [
+            [
+              1,
+              1
+            ],
+            [
+              1,
+              -1
+            ]
+          ],
+          "dosah": 0,
+          "vpred": false
+        },
+        {
+          "vektory": [
+            [
+              1,
+              2
+            ],
+            [
+              1,
+              -2
+            ],
+            [
+              2,
+              1
+            ],
+            [
+              2,
+              -1
+            ]
+          ],
+          "dosah": 1,
+          "vpred": false
+        }
+      ],
+      "utoky": [],
+      "skok": false,
+      "symbol": "",
+      "popis": "Střelec + jezdec."
+    },
+    {
+      "znacka": "C",
+      "nazev": "Kancléř",
+      "pohyby": [
+        {
+          "vektory": [
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              0
+            ]
+          ],
+          "dosah": 0,
+          "vpred": false
+        },
+        {
+          "vektory": [
+            [
+              1,
+              2
+            ],
+            [
+              1,
+              -2
+            ],
+            [
+              2,
+              1
+            ],
+            [
+              2,
+              -1
+            ]
+          ],
+          "dosah": 1,
+          "vpred": false
+        }
+      ],
+      "utoky": [],
+      "skok": false,
+      "symbol": "",
+      "popis": "Věž + jezdec."
+    },
+    {
+      "znacka": "G",
+      "nazev": "Strážce",
+      "pohyby": [
+        {
+          "vektory": [
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              1,
+              -1
+            ]
+          ],
+          "dosah": 2,
+          "vpred": false
+        }
+      ],
+      "utoky": [],
+      "skok": false,
+      "symbol": "",
+      "popis": "Jako král, ale až o 2 pole (nepřeskakuje)."
+    },
+    {
+      "znacka": "L",
+      "nazev": "Kopiník",
+      "pohyby": [
+        {
+          "vektory": [
+            [
+              0,
+              1
+            ]
+          ],
+          "dosah": 0,
+          "vpred": true
+        }
+      ],
+      "utoky": [],
+      "skok": false,
+      "symbol": "",
+      "popis": "Jen dopředu, libovolně daleko (jako v japonských šachách)."
+    },
+    {
+      "znacka": "Z",
+      "nazev": "Žabák",
+      "pohyby": [
+        {
+          "vektory": [
+            [
+              0,
+              2
+            ],
+            [
+              2,
+              0
+            ],
+            [
+              2,
+              2
+            ],
+            [
+              2,
+              -2
+            ]
+          ],
+          "dosah": 1,
+          "vpred": false
+        }
+      ],
+      "utoky": [],
+      "skok": false,
+      "symbol": "",
+      "popis": "Skáče přesně o 2 pole rovně nebo šikmo, přes figurky."
+    },
+    {
+      "znacka": "U",
+      "nazev": "Velbloud",
+      "pohyby": [
+        {
+          "vektory": [
+            [
+              1,
+              3
+            ],
+            [
+              3,
+              1
+            ],
+            [
+              1,
+              -3
+            ],
+            [
+              3,
+              -1
+            ]
+          ],
+          "dosah": 1,
+          "vpred": false
+        }
+      ],
+      "utoky": [],
+      "skok": false,
+      "symbol": "",
+      "popis": "Prodloužený jezdec: skok 1+3."
+    }
+  ]
+}
