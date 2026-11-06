@@ -59,7 +59,7 @@ class Figurka:
     def copy(self):
         return copy.deepcopy(self)
 
-    # --- přístupové metody (z původního projektu) ---
+    # --- přístupové metody ---
     def getVektory(self) -> list[tuple[int, int]]:
         return self.vektory
 
